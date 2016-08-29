@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: 'UbuntuMono-R.tff';
+}
+
+body {
+   color: #fff;
+   background: #000;
+   font-family: 'Ubuntu Mono';
+}
+
+a,
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: #ba68c8;
+}
+
+ul li {
+  list-style: none;
+}
+
+ ul {
+  margin: 0;
+  padding: 0
+}
+        
+footer {
+  margin: 1.5rem 0 0
+}
