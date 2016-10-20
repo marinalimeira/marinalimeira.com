@@ -1,21 +1,19 @@
-@font-face {
-  font-family: 'Ubuntu Mono';
-  src: 'UbuntuMono-R.tff';
-}
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
 body {
-   color: #fff;
-   background: #000;
-   font-family: 'Ubuntu Mono';
+   color: #000;
+   background: #fff;
+   font-family: 'Maven Pro';
+   text-align: center;
 }
 
 a,
 a:link {
-  color: yellow;
+  color: #0d47a1;
 }
 
 a:visited {
-  color: #ba68c8;
+  color: #6200ea;
 }
 
 ul li {
@@ -26,7 +24,7 @@ ul li {
   margin: 0;
   padding: 0
 }
-        
+
 footer {
   margin: 1.5rem 0 0
 }
