@@ -1,14 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Montserrat');
 
-body {
-   color: #000;
-   background: #fff;
-   font-family: 'Maven Pro';
-   text-align: center;
+h1 {
+  text-shadow: -0.06em 0 #E91E63, 0.06em 0 #18FFFF;
+  display: inline;
 }
 
-a,
-a:link {
+h1, h2 {
+  font-family: 'Montserrat';
+}
+
+header a, p a {
+  color: #111 !important;
+}
+
+
+header {
+  margin-top: 2em;
+}
+
+nav a {
+  border-bottom: 3px solid #18FFFF;
+}
+
+p a {
+  border-bottom: 2px solid #7B1FA2;
+}
+
+nav a:hover {
+  font-weight: 700;
+  border-bottom: 2px solid #18FFFF;
+}
+
+nav {
+  float: right;
+  margin-right: 5em;
+}
+
+body {
+  color: #332;
+  background: #fff;
+  font-family: 'Open Sans';
+
+  padding: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-size: 1.05em;
+}
+
+a, a:link {
+  text-decoration: none;
   color: #0d47a1;
 }
 
@@ -20,11 +61,11 @@ ul li {
   list-style: none;
 }
 
- ul {
+ul {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 footer {
-  margin: 1.5rem 0 0
+  margin: 1.5rem 0 0;
 }
