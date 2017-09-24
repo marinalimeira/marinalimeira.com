@@ -14,7 +14,7 @@ header a, p a {
 }
 
 header {
-  margin-top: 2em;
+  margin: 2em 0;
 }
 
 nav a {
