@@ -39,8 +39,8 @@ body {
 
 a, a:link {
   color: #922B2E;
-  text-decoration-style: wavy;
-  text-decoration-thickness: 1.2px;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1.6px;
 }
 
 a:hover {
@@ -55,7 +55,7 @@ footer {
   body {
     padding:0px;
   }
-  
+
   .box {
     border-radius: 0px;
     padding: 10px 10px;
